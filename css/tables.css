@@ -1,0 +1,20 @@
+
+
+table, th, td{
+    border: 1px solid #000;
+}
+
+table{
+    width: 900px;
+}
+
+th{
+    background-color: #900404;
+    color: #fff;
+    padding: 8px 5px 20px 10px;
+}
+
+td{
+    padding: 10px;
+}
+

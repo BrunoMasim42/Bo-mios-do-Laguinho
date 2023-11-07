@@ -351,12 +351,6 @@ section.historia .interface{
     font-size: 12px;
 }
 
-
-
-
-
-
-
 /*final*/
 
 .final .interface{
@@ -641,6 +635,70 @@ section.container .flex{
 }
 
 
+
+/* Estilizar PAGINA CARNAVAIS */
+
+.ano-carnaval{
+    display: flex;
+    margin-left: 150px;
+    gap: 50px;
+    margin-top: 50px;
+}
+section .container-carnaval{
+    padding: 40px 4%;
+    
+}
+
+section.container .flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+ .img-carnaval #btn{
+    width: 80px;
+    height: 80px;
+    border: 2px solid #e60505;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.interface #btn {
+    font-size: 20pt;
+    color: #880303;
+    font-family: poppiens, sans-serif;
+    text-align: justify;
+}
+
+.ano-carnaval #btn{
+   padding: 15px 15px 15px 12px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#table{
+    margin-left: 180px;
+    margin-top: 80px;
+}
+
+.carna{
+    width: 1200px;
+    font-size: 16pt;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+#color-span{
+    color: #9c0303;
+}
+
+.name-bruno{
+    text-decoration: none;
+    color: #0c0c0c;
+}
 
 
 

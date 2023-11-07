@@ -600,11 +600,6 @@ section.banner{
     
 }
 
-
-
-
-
-
 /* Galeria*/
 
 section.galeria{
@@ -738,6 +733,107 @@ form textarea::placeholder{
     color: #e60505;
 }
 
+
+
+/*PARCEIROS*/
+.container .interface{
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.container .heading{
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+.container #search-box{
+    text-align: center;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 12px 15px;
+    border: 3px solid #be0404;
+    width: 600px;
+}
+
+.container .container-logo{
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 30px;
+}
+
+@keyframes fadeIn{
+    0%{
+        transform: scale(.7) translateY(-10px);
+        opacity: 0;
+    }
+}
+
+.container .container-logo .logo-parca{
+    width: 280px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 15px;
+    animation: fadeIn .2s linear;
+    
+}
+
+.container .container-logo .logo-parca img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+
+.container .container-logo .logo-parca img:hover{
+    transform: scale(1.2);
+}
+
+.container .container-logo .logo-parca h3{
+    font-size: 20px;
+    color: #2c3e50;
+
+
+}
+
+@media (max-width:768px){
+    .container .container-logo{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 25px 20px;
+    }
+
+    .container .container-logo .logo-parca{
+        width: 100%;
+    }
+
+    .container #search-box{
+        width: 90%;
+    }
+}
+
+@media (max-width:450px){
+    .container .container-logo{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 25px 20px;
+    }
+
+    .container .container-logo .logo-parca{
+        width: 100%;
+    }
+}
+
+
+
+
 /*final*/
 
 .final .interface{
@@ -752,10 +848,19 @@ form textarea::placeholder{
 
 .final .interface h5{
     font-size: 8pt;
-
-    
-    
 }
+
+#color-span{
+    color: #9c0303;
+}
+
+.name-bruno{
+    text-decoration: none;
+    color: #0c0c0c;
+}
+
+
+
 
 /* ESTILIZAÇÃO MOBILLE */
 
