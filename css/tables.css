@@ -4,8 +4,8 @@ table, th, td{
     border: 1px solid #000;
 }
 
-table{
-    width: 900px;
+table.maior-table{
+    max-width: 900px;
 }
 
 th{
@@ -16,5 +16,39 @@ th{
 
 td{
     padding: 10px;
+}
+
+
+table, th, td{
+    border: 1px solid #000;
+}
+
+table.menor-table{
+    max-width: 100px;
+    display: none;
+}
+
+th{
+    background-color: #900404;
+    color: #fff;
+ 
+}
+
+td{
+    padding: 5px;
+}
+
+@media screen and (max-width:320px) {
+   
+
+    table.maior-table{
+       display: none;
+    }
+    
+    th{
+        background-color: #900404;
+        color: #fff;
+        padding: 4px 3px 6px 5px;
+    }
 }
 

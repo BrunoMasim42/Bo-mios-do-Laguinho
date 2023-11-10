@@ -638,59 +638,65 @@ section.container .flex{
 
 /* Estilizar PAGINA CARNAVAIS */
 
-.ano-carnaval{
-    display: flex;
-    margin-left: 150px;
-    gap: 50px;
-    margin-top: 50px;
-}
-section .container-carnaval{
+
+.section{
     padding: 40px 4%;
     
+
 }
 
-section.container .flex{
+.flex{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    
+   
 }
 
- .img-carnaval #btn{
+section #btn{
     width: 80px;
     height: 80px;
     border: 2px solid #e60505;
     border-radius: 50%;
-    align-items: center;
+   
+   
 }
+
+.ano-carnaval{
+    width: 900px;
+    margin-left: 250px;
+    margin-top: 50px;
+   
+    
+}
+
 
 .interface #btn {
     font-size: 20pt;
     color: #880303;
     font-family: poppiens, sans-serif;
     text-align: justify;
+   
 }
 
-.ano-carnaval #btn{
+ #btn{
    padding: 15px 15px 15px 12px;
 }
 
-a{
-    text-decoration: none;
+
+.carna{
+    width: 1200px;
+    font-size: 14pt;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    margin-left: 50px;
 }
+
+
 
 #table{
     margin-left: 180px;
     margin-top: 80px;
 }
 
-.carna{
-    width: 1200px;
-    font-size: 16pt;
-    font-family:Arial, Helvetica, sans-serif;
-    margin-top: 50px;
-    margin-left: 120px;
-}
+
 #color-span{
     color: #9c0303;
 }
@@ -698,6 +704,123 @@ a{
 .name-bruno{
     text-decoration: none;
     color: #0c0c0c;
+}
+
+@media screen and(max-width:1100px) {
+    .carna{
+        width: 900px;
+        font-size: 14pt;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:900px){
+    html{
+        font-size: 55%;
+       
+    }
+
+    .ano-carnaval{
+        display:flex;
+        flex-direction:row;
+        width: 800px;
+        margin-left: 5px;
+        margin-top: 20px;
+       
+    }
+
+     .flex{
+        
+        gap: 10px;
+        
+     }
+   
+
+    section #btn{
+    width: 60px;
+    height: 60px;
+    border: 2px solid #e60505;
+    border-radius: 50%;
+    gap: 10px;
+  
+   }
+
+    .interface #btn {
+        font-size: 14pt;
+        color: #880303;
+        font-family: poppiens, sans-serif;
+        text-align: justify;
+    }
+
+    #btn{
+        padding: 8px 8px 8px 10px;
+     }
+
+     .carna{
+        width: 700px;
+        font-size: 16pt;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+    html{
+        font-size: 55%;
+       
+    }
+
+    .ano-carnaval{
+        display:flex;
+        flex-direction:row;
+        width: 350px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+     .flex{
+        
+        gap: 10px;
+        
+     }
+   
+
+    section #btn{
+    width: 60px;
+    height: 60px;
+    border: 2px solid #e60505;
+    border-radius: 50%;
+    gap: 10px;
+  
+   }
+
+    .interface #btn {
+        font-size: 14pt;
+        color: #880303;
+        font-family: poppiens, sans-serif;
+        text-align: justify;
+    }
+
+    #btn{
+        padding: 8px 8px 8px 10px;
+     }
+
+     .carna{
+        width: 330px;
+        font-size: 12pt;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    #table{
+        margin-left: 2px;
+        margin-top: 80px;
+    }
 }
 
 
@@ -896,6 +1019,10 @@ a{
         color: #fff;
         text-decoration: none;
     }
+
+    /* Pagina Carnavais*/
+
+
 
   
     /*Contato*/

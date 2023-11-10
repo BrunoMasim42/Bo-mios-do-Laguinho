@@ -46,4 +46,3 @@ searchBox.oninput = () => {
    
 };
 
-alert('Boa Noite');
